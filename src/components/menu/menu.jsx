@@ -10,7 +10,7 @@ const Menu = () => {
 
     return (
         <nav>
-            <img src="cnbox/logo.svg" alt="CNBox Cotia" />
+            <img src="/cnbox/logo.svg" alt="CNBox Cotia" />
             <div className="menuMobile" onClick={toggleMenu}>
                 <div className="backgroundMenu" style={{display: menuOpen ? 'flex' : 'none'}}></div>
                 {menuOpen ? <i className="bi bi-x-circle"></i> : <i className="bi bi-list"></i>}
