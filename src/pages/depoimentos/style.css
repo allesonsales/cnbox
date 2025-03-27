@@ -77,7 +77,7 @@
     }
 
     .depoimento {
-        padding: 4rem;
+        padding: 2rem;
     }
 
     .depoimento p {
@@ -92,8 +92,7 @@
         background-position: 0rem;
     }
     .depoimento p {
-        padding: 2rem;
-        width: 30%;
-        font-size: 1.5rem;
+        width: 60%;
+        font-size: 1.2rem;
     }
 }

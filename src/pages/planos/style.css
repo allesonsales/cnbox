@@ -164,9 +164,6 @@
 
 @media (min-width: 1200px) {
 
-    #planos {
-        height: 100vh;
-    }
     .plano {
         grid-template-columns: repeat(4, 1fr);
         gap: 1rem;
