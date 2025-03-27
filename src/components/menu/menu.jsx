@@ -18,7 +18,7 @@ const Menu = () => {
                     <li><a href="#crossfit">O CrossFit</a></li>
                     <li><a href="#planos">Planos</a></li>
                     <li><a href="#depoimentos">Depoimentos</a></li>
-                    <li className="aula">Agendar aula experimental</li>
+                    <li className="aula"><a href="https://wa.me/5511988863535?text=<Oi, vim pelo site e quero agendar uma aula experimental, quando posso começar?>" target="blank">Agendar aula experimental</a></li>
                 </ul>
             </div>
             <div className="menuDesktop">
