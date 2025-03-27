@@ -1,0 +1,99 @@
+.backgroundDepoimentos {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../../../public/depoimentos.jpeg');
+    background-size: cover;
+    background-position: -18rem;
+    background-repeat: no-repeat;
+}
+
+#depoimentos {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+
+    .backgroundColor {
+        width: 100vw;
+        z-index: 20;
+    }
+}
+
+.depoimentosContainer {
+    position: relative;
+    z-index: 400;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.top {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+
+    h3 {
+        margin: 0;
+        color: white;
+        font-weight: 200;
+        font-size: 1.5rem;
+    }
+}
+
+
+.depoimento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+.depoimento img {
+    border: solid 2px var(--verde);
+    border-radius: 50%;
+}
+
+.depoimento h3 {
+    margin: 0;
+}
+
+.depoimento p {
+    background-color: #28e31b79;
+    border-radius: 15px;
+    padding: 1rem;
+    color: white;
+}
+
+@media (min-width: 768px) {
+
+    .top {
+        h2 {
+            font-size: 3rem;
+        }
+    }
+
+    .depoimento {
+        padding: 4rem;
+    }
+
+    .depoimento p {
+        font-size: 1.5rem;
+        width: 70%;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .backgroundDepoimentos {
+        background-position: 0rem;
+    }
+    .depoimento p {
+        padding: 2rem;
+        width: 30%;
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,73 @@
+.backgroundHome {
+    background-image: url('../../../public/home.png');
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 110vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.backgroundColor {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    opacity: .6;
+    z-index: 5;
+}
+
+#home {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    z-index: 10;
+}
+
+.textContent {
+    display: flex;
+    align-items: center;
+    font-size: 4rem;
+    font-family: "Staatliches";
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    padding: 1rem;
+    color: transparent;
+    line-height: 50px;
+    text-align: left;
+}
+
+.frases {
+    color: white; 
+}
+
+.adjetivo {
+    color: var(--verde);
+    font-size: 5rem;
+    line-height: 70px;
+}
+
+@media (min-width: 768px) {
+    .textContent {
+        font-size: 6rem;
+    }
+
+    .adjetivo {
+        font-size: 7rem;
+        line-height: 120px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .textContent {
+        font-size: 7rem;
+    }
+
+    .adjetivo {
+        font-size: 8rem;
+        line-height: 140px;
+    }
+}
