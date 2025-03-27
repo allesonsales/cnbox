@@ -9,22 +9,22 @@ const Depoimentos = () => {
     const { opacidade } = useContext(Animacoes)
     const depo = [
         {   
-            foto: 'cnbox/victor.png',
+            foto: '/cnbox/victor.png',
             nome: "Victor Sanches",
             comentario: "Treino na academia todos os dias e adoro! Não estava engajado em nenhuma atividade física, mas eles me ajudaram em voltar à ativa. Os professores são excelentes, sempre atentos e motivadores. A infraestrutura é top, com tudo o que você precisa para um treino completo. Super recomendo para quem busca um lugar de qualidade para treinar e se sentir bem!"
         },
         {   
-            foto: 'cnbox/mayara.png',
+            foto: '/cnbox/mayara.png',
             nome: "Mayara Lima",
             comentario: "Melhor Cross da região. Um excelente ambiente para treinos e super completo. Professores muito atenciosos e gentis! Recomendo muito para quem procura um novo estilo de vida!!! 🏋🏽‍♀️"
         },
         {   
-            foto: 'cnbox/tamires.png',
+            foto: '/cnbox/tamires.png',
             nome: "Tamires Santos",
             comentario: "O box tem uma vibe incrível, me sinto em casa desde o primeiro dia de treino. Os treinos são eficientes, ótimos para que buscar se desafiar, emagrecer, definir ou ter uma rotina mais saudável, lá todos se incentivam, fazendo com que você se supere a cada dia."
         },
         {   
-            foto: 'cnbox/ph.png',
+            foto: '/cnbox/ph.png',
             nome: "PH",
             comentario: "Galera a melhor academia de cross de Cotia , sensacional , a galera é top os professores são sensacionais e os proprietários surreais , vale a pena conferir galera , eu PH recomendo de olhos fechados 🇧🇷👊"
         },
