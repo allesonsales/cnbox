@@ -1,11 +1,19 @@
+.botao {
+    position: absolute;
+    bottom: 5.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    opacity: .5;
+}
+
+.botao
+
 button {
     color: white;
     border: solid 1px white;
     background-color: transparent;
-    position: absolute;
-    bottom: 7rem;
-    left: 50%;
-    transform: translateX(-50%);
 }
 
 @media (min-width: 768px) {
@@ -15,7 +23,7 @@ button {
 }
 
 @media (min-width: 1200px) {
-    button:hover {
-       color: var(--verde);
+    .botao:hover {
+      opacity: 1;
     }
 }

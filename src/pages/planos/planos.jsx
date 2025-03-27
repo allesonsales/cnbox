@@ -61,7 +61,6 @@ const Planos = () => {
                     <div className="planoContainer ultimo">
                         <span className="vantagem">O MAIS VANTAJOSO</span>
                         <div className="precoContainer">
-                            <i className="bi bi-tag"></i>
                             <div className="tag">
                                 <span>20% de Desconto</span>
                                 <small>no plano fidelidade trimestral</small>

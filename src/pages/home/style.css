@@ -13,7 +13,7 @@
 .backgroundColor {
     background-color: black;
     width: 100vw;
-    height: 100vh;
+    height: 110vh;
     position: absolute;
     opacity: .6;
     z-index: 5;

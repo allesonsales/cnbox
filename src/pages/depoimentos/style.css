@@ -12,11 +12,13 @@
 
 #depoimentos {
     position: relative;
-    height: 100vh;
+    height: 105vh;
     width: 100vw;
+    margin: 0;
 
     .backgroundColor {
         width: 100vw;
+        height: 105vh;
         z-index: 20;
     }
 }
@@ -24,6 +26,7 @@
 .depoimentosContainer {
     position: relative;
     z-index: 400;
+    padding: 0 2rem;
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -39,7 +42,7 @@
         margin: 0;
         color: white;
         font-weight: 200;
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 }
 
@@ -64,8 +67,9 @@
 .depoimento p {
     background-color: #28e31b79;
     border-radius: 15px;
-    padding: 1rem;
+    padding: .5rem;
     color: white;
+    font-size: .6rem;
 }
 
 @media (min-width: 768px) {
@@ -89,7 +93,7 @@
 @media (min-width: 1200px) {
 
     .backgroundDepoimentos {
-        background-position: 0rem;
+        background-position: 0rem -10rem;
     }
     .depoimento p {
         width: 60%;

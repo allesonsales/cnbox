@@ -85,6 +85,10 @@ nav img {
     color: rgb(3, 46, 3);
 }
 
+a {
+    font-weight: 500;
+}
+
 .menuDesktop {
     display: none;
 }

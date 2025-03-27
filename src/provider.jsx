@@ -22,7 +22,7 @@ const AnimacoesProvider = ({ children }) => {
 
     const desfoque = {
         initial: { x: 0, opacity: 0, filter: "blur(4px)" },
-        animate: { x: 100, opacity: 1, filter: "blur(0px)" },
+        animate: { x: 60, opacity: 1, filter: "blur(0px)" },
     }
 
 
